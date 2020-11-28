@@ -16,7 +16,7 @@ public class Program {
 
 	public static void main(String[] args) {
 
-		System.out.println("run1");
+		System.out.println("run");
 		File fileBeep = new File("C:/Users/Public/lib/beep.wav");
 		File fileBeepStartEnd = new File("C:/Users/Public/lib/beepStartEnd.wav");
 //		File fileBeep = new File("C:/Users/Lichay/git/JavaAutoSearch/AutoSearch/src/app/beep.wav");
@@ -49,8 +49,8 @@ public class Program {
 		URL url2 = null;
 
 		try {
-			url1 = new URL("https://www.newegg.com/global/il-en/p/pl?d=rx+6800&N=601359421%20601359430");
-			url2 = new URL("https://www.newegg.com/global/il-en/p/pl?d=rx+6800+xt&N=601359430%20601359421");
+			url1 = new URL("https://www.newegg.com/global/il-en/p/pl?d=rx+6800&N=101613484&isdeptsrh=1");
+			url2 = new URL("https://www.newegg.com/global/il-en/p/pl?d=rx+6800+xt&N=101613484&isdeptsrh=1");
 		} catch (MalformedURLException e1) {
 			clipBeepStartEnd.setMicrosecondPosition(0);
 			clipBeepStartEnd.start();
